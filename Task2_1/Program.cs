@@ -19,7 +19,7 @@
             b = p;
 
             Console.WriteLine("Обновленные значения a={0}, b={1} и c={2}", a, b, c);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

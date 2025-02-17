@@ -16,7 +16,7 @@
             double mm = Math.Round((mm1 - Math.Floor(mm1)) * 10) / 10 + Math.Floor(mm1);
 
             Console.WriteLine("В метрической системе {0}м {1}см {2}мм", m, sm, mm);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

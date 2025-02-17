@@ -14,7 +14,7 @@
             int n = N - n2 * 100 + n4 * 100 - n4  + n2 ;
 
             Console.Write("Новое число: {0}", n);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

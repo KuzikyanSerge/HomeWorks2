@@ -9,7 +9,7 @@
             int l = (int)Math.Ceiling(Convert.ToDouble(Console.ReadLine()));
 
             Console.Write("Округление с запасом: {0}", l);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

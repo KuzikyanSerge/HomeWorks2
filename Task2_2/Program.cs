@@ -23,7 +23,7 @@
 
             Console.WriteLine("Значение в радианах ={0}", R1);
             Console.WriteLine("Значение в радианах минимальное ={0}", R2);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

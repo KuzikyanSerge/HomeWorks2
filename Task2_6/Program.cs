@@ -14,7 +14,7 @@
             double l = Math.Floor(L) + Math.Floor(t1) * 0.5 - Math.Floor(t2) * 0.5;
 
             Console.Write("Округление до 0.5: {0}", l);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

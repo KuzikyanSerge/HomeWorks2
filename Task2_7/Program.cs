@@ -15,7 +15,7 @@
             b = b - a;
 
             Console.WriteLine("Обновленные значения a={0} и b={1}", a, b);
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
