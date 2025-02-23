@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ведите характеристики угла(целые значения):");
+            Console.WriteLine("Введите характеристики угла(целые значения):");
             Console.Write("Градусы=");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Минуты=");

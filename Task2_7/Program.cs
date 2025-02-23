@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ведите два целых числа:");
+            Console.WriteLine("Введите два целых числа:");
             Console.Write("a=");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.Write("b=");

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ведите длину трубы:");
+            Console.WriteLine("Введите длину трубы:");
 
             double L = Convert.ToDouble(Console.ReadLine());
 

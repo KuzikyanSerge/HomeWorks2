@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ведите целое четырехзначное число:");
+            Console.WriteLine("Введите целое четырехзначное число:");
 
             int N = Convert.ToInt32(Console.ReadLine());
 
