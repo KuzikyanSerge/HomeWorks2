@@ -14,7 +14,7 @@
             int fourthNumber = Convert.ToInt32(Console.ReadLine());
 
             int max1 = (firstNumber > secondNumber) ? firstNumber : secondNumber;
-            int max1 = (thirdNumber > fourthNumber) ? thirdNumber : fourthNumber;
+            int max2 = (thirdNumber > fourthNumber) ? thirdNumber : fourthNumber;
             int max = (max1 > max2) ? max1 : max2;
 
             Console.WriteLine("Самое большое число: {0}", max);
