@@ -17,7 +17,6 @@
             int max1 = (thirdNumber > fourthNumber) ? thirdNumber : fourthNumber;
             int max = (max1 > max2) ? max1 : max2;
 
-
             Console.WriteLine("Самое большое число: {0}", max);
             Console.ReadKey();
         }

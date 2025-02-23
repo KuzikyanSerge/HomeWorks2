@@ -12,6 +12,9 @@
             int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
             int max = ((firstNumber > secondNumber) && (firstNumber > thirdNumber)) ? firstNumber : ((secondNumber > thirdNumber) ? secondNumber : thirdNumber);
+            // Альтернативный вариант
+            // int max1 = (firstNumber > secondNumber) ? firstNumber : secondNumber;
+            // int max = (max1 > thirdNumber) ? max1 : thirdNumber;
 
             Console.WriteLine("Самое большое число: {0}", max);
             Console.ReadKey();
