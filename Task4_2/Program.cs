@@ -1,4 +1,4 @@
-﻿namespace Task4_1
+﻿namespace Task4_2
 {
     internal class Program
     {
@@ -12,14 +12,14 @@
                 Console.WriteLine("Ошибка! Число не является натуральным.");
                 Console.ReadKey();
             }
-            int faktorial = 1;
-            
-            for (int i = 1; i <= number; i++)
+            double antiFaktorial = 0;
+
+            for (double i = 1; i <= number; i++)
             {
-                faktorial *= i;
+                antiFaktorial += 1 / i;
             }
-            
-            Console.WriteLine("{0}! = {1}", number, faktorial);
+
+            Console.WriteLine(antiFaktorial);
             Console.ReadKey();
         }
     }
