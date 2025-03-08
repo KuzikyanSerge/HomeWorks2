@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ведите длину в дюймах:");
+            Console.WriteLine("Введите длину в дюймах:");
 
             double D = (double)Convert.ToInt32(Console.ReadLine());
 
