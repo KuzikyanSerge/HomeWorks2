@@ -8,6 +8,7 @@
             int[] array = new int[n];
             Random random = new Random();
 
+            Console.WriteLine("Исходный массив");
             for (int i = 0; i < n; i++)
             {
                 array[i] = random.Next(-50, 51);
@@ -49,6 +50,7 @@
             {
                 Console.Write("{0} ", array[i]);
             }
+            Console.ReadLine();
         }
     }
 }
