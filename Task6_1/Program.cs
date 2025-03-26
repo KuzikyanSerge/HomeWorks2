@@ -34,9 +34,6 @@
             Console.WriteLine("Самоое длинное слово:");
             Console.WriteLine(s);
             Console.ReadKey();
-
-
-
         }
     }
 }
