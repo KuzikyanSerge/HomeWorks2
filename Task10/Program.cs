@@ -127,7 +127,7 @@
         {
             Floors = floors;
             HasElevator = hasElevator;
-            AreaPerFloor = Area / floors;
+            AreaPerFloor = Area / Floors;
         }
 
         //Методы
