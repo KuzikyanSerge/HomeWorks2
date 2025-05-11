@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             string separator = new String('-', 20);
-            
+            try
+            {
             //Создание объектов обоих типов
             Building building = new Building("г.Москва", 1500, 1988);
             MultiBuilding multiBuilding = new MultiBuilding("г.Москва", 10000, 2000, 10, true);
@@ -40,8 +41,12 @@
             Console.WriteLine(separator);
             //Console.WriteLine($"Площадь одного этажа = {multiBuilding2.AreaPerFloor}");
             //Console.WriteLine(separator);
-
-            Console.ReadKey();
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
+    Console.ReadKey();
         }
     }
     public class Building
