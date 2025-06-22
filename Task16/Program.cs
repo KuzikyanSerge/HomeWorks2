@@ -16,14 +16,14 @@
                 int[] array = t.Result;
                 return CalculateArithmeticMean(array);
             });
-            Console.WriteLine($"Среднее арифмитическое = {task2.Result}");
+            Console.WriteLine($"Среднее арифметическое = {task2.Result}");
             Console.WriteLine(separator);
 
             Console.WriteLine("Метод ассинхронности");
             int[] array = GenerateArrayAsync(10).Result;
             double num = CalculateArithmeticMeanAsync(array).Result;
 
-            Console.WriteLine($"Среднее арифмитическое = {num}");
+            Console.WriteLine($"Среднее арифметическое = {num}");
             Console.WriteLine(separator);
 
 
@@ -49,7 +49,7 @@
 
         static double CalculateArithmeticMean(int[] array)
         {
-            Console.WriteLine("Вычисление среднего арифмитического...");
+            Console.WriteLine("Вычисление среднего арифметического...");
             int sum = 0;
             int n = array.Length;
             foreach (int num in array)
@@ -61,7 +61,7 @@
             }
             double arithmeticMean = sum / array.Length;
             Console.WriteLine();
-            Console.WriteLine("Вычисление среднего арифмитического завершено");
+            Console.WriteLine("Вычисление среднего арифметического завершено");
             return arithmeticMean;
         }
         static async Task<int[]> GenerateArrayAsync(int n)
@@ -74,9 +74,9 @@
 
         static async Task<double> CalculateArithmeticMeanAsync(int[] array)
         {
-            Console.WriteLine("Вычисление среднего арифмитического асинхронно...");
+            Console.WriteLine("Вычисление среднего арифметического асинхронно...");
             double result = await Task.Run(() => CalculateArithmeticMean(array));
-            Console.WriteLine("Вычисление среднего арифмитического асинхронно завершено");
+            Console.WriteLine("Вычисление среднего арифметического асинхронно завершено");
             return result;
         }
     }
