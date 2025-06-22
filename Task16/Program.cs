@@ -43,7 +43,7 @@
                 Thread.Sleep(500);
             }
 
-            Console.WriteLine("\nМассив сгенерирован!");
+            Console.WriteLine("Массив сгенерирован!");
             return array;
         }
 
@@ -68,15 +68,15 @@
         {
             Console.WriteLine("Генерация массива асинхронно...");
             int [] array = await Task.Run(() => GenerateArray(n));
-            Console.WriteLine("\nМассив сгенерирован асинхронно!");
+            Console.WriteLine("Массив сгенерирован асинхронно!");
             return array;
         }
 
         static async Task<double> CalculateArithmeticMeanAsync(int[] array)
         {
-            Console.WriteLine("Вычисление среднего арифмитического ассинхронно...");
+            Console.WriteLine("Вычисление среднего арифмитического асинхронно...");
             double result = await Task.Run(() => CalculateArithmeticMean(array));
-            Console.WriteLine("Вычисление среднего арифмитического ассинхронно завершено");
+            Console.WriteLine("Вычисление среднего арифмитического асинхронно завершено");
             return result;
         }
     }
